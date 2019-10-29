@@ -1,6 +1,11 @@
+
 body{
     background-color: antiquewhite;
+    font-family:cursive;
+    
+
 }
+
 #header{
      margin:auto;
     width: 50%;
@@ -201,3 +206,120 @@ a:hover{
     background:-webkit-linear-gradient(bottom,#aadddd 0%,#77aaaa 100%);
     
 }
+
+#inline1 div:first-child{
+    margin-top: 50px;
+      margin-left:50px;
+    height:150px;
+    width:150px;
+  text-align:center;
+   
+    border-width:2px;
+    border-radius:100px;
+    background-image: url("../img/logo.JPG");
+    background-size:170px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     background-repeat:no-repeat;
+    background-position: bottom;
+}
+#inline1 div:nth-child(even){
+  display:inline-block;
+    margin-left:0px;
+    height:40px;
+    width:200px;
+    text-align:center;
+    color:white;
+   background-color:limegreen;
+    border-width:2px;
+    border-radius:40px 10px 10px 10px;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-size: 20px;
+}
+.number{
+    display:inline-block;
+}
+#inline2 div:first-child{
+    margin-top: 10px;
+      margin-left:50px;
+    height:150px;
+    width:140px;
+  text-align:center;
+   
+    border-width:2px;
+   border-radius: 30px;
+    background-image: url("../img/insta.jpg");
+    background-size:100%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     background-repeat:no-repeat;
+    background-position:left;
+}
+#inline2 div:nth-child(even){
+  display:inline-block;
+    margin-left:5px;
+    height:40px;
+    width:200px;
+    text-align:center;
+    color:white;
+   background-color:hotpink;
+    border-width:2px;
+    border-radius:40px 10px 10px 10px;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-size: 20px;
+}
+
+.instalogo{
+    display:inline-block;
+}
+
+#inline3 div:first-child{
+    margin-top: 30px;
+      margin-left:50px;
+    height:150px;
+    width:140px;
+  text-align:center;
+   
+    border-width:2px;
+   border-radius: 30px;
+    background-image: url("../img/img2.png");
+    background-size:100%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     background-repeat:no-repeat;
+    background-position:left;
+}
+#inline3 div:nth-child(even){
+   margin-top: 60px;
+      margin-left:20px;
+    height:150px;
+    width:180px;
+  text-align:center;
+   
+    border-width:2px;
+   border-radius: 20px;
+    background-image: url("../img/hack1.JPG");
+    background-size:100%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     background-repeat:no-repeat;
+    background-position:left;
+}
+#inline3 div:nth-child(3){
+   margin-top: 60px;
+      margin-left:20px;
+    height:150px;
+    width:180px;
+  text-align:center;
+   
+    border-width:2px;
+   border-radius: 20px;
+    background-image: url("../img/hack2.JPG");
+    background-size:180px 178px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     background-repeat:no-repeat;
+    background-position:top;
+}
+
+
+.rank{
+    display:inline-block;
+}
+
+
