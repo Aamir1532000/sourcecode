@@ -1,6 +1,6 @@
 
 body{
-    background-color: antiquewhite;
+    background-color:antiquewhite;
     font-family:cursive;
     
 
@@ -13,17 +13,19 @@ body{
 
 }
 #image{
-    margin-left:60px;
+    margin-left:43%;
     height:200px;
     width:200px;
-    border-width:2px;
-    border-radius:100px;
+    border-width:10px;
+    border-color: white;
+    border-radius:20px 20px 20px 20px;
     background-image: url("../img/img5.jpg");
-    background-size:200px;
+    background-size:100%;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-repeat:no-repeat;
 }
 #image.open{
-margin-left:60px;
+margin-left:37%;
     height:400px;
     width:400px;
      border-width:2px;
@@ -166,7 +168,7 @@ h2{
 
  
 .name{
-    margin-left: 60px;
+    margin-left: 43%;
     padding:30px;
     font-family:cursive;
     font-size:20px;
